@@ -32,4 +32,12 @@ public class LoockCamera : MonoBehaviour {
     public void MoveCam() {
         endLadder = true;
     }
+
+    public void MoveToLand() {
+        offset = new Vector3(-1, 1, -3);
+    }
+
+    public void CastleCam() {
+        offset = new Vector3(0, 1, 0);
+    }
 }
